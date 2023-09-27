@@ -31,18 +31,18 @@ function Hero() {
            
          </div> */}
          <div className="col-span-6">
-  <div className="grid grid-cols-2 gap-2 mx-auto w-full h-full">
+  <div className="grid grid-cols-2 gap-2 mx-auto ">
     <div className="flex items-center justify-center">
-      <img src="/images/Rectangle.png" alt="" />
+      <img  className="" src="/images/Rectangle.png" alt="" />
     </div>
-    <div className="flex items-center justify-center">
-      <img src="/images/Rectangle 2.png" alt="" />
+    <div className="flex items-center justify-center ">
+      <img  className="w-full h-full"src="/images/Rectangle 2.png" alt=""  />
     </div>
-    <div className="flex items-center justify-center">
-      <img src="/images/Rectangle3.png" alt="" />
+    <div className="flex items-center justify-center w-full h-full">
+      <img  className="w-full h-full" src="/images/Rectangle3.png" alt="" />
     </div>
-    <div className="flex items-center justify-center">
-      <img src="/images/Rectangle4.png" alt="" />
+    <div className="flex items-center justify-center ">
+      <img className='w-full h-full' src="/images/Rectangle4.png" alt="" />
     </div>
   </div>
 </div>
